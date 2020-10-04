@@ -41,7 +41,7 @@ Classes for players:
 * Giant: slowest class, strongest class, weakest magic
  
 ## Setup
-The main file is on /src/ch/supsi/game/test/TestGame.java
+The main file is on `/src/ch/supsi/game/test/TestGame.java`
 
 
 License
