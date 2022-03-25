@@ -28,22 +28,12 @@ public class Board {
 	}
 
 	public void showGrid() {
-		for (int i = 0; i < getLength() * 4 + 1; i++)
-			System.out.print("-");
-		System.out.println();
-		
 		for (int i = 0; i < getHeight(); i++) {
 			System.out.print("|");
 			for (int j = 0; j < getLength(); j++) {
-				System.out.print(" ");
-				
 				logic.showCell(i, j);				
-				System.out.print(" |");
+				System.out.print("|");
 			}
-			System.out.println();
-			
-			for (int j = 0; j < getLength() * 4 + 1; j++)
-				System.out.print("-");
 			System.out.println();
 		}
 		System.out.println();
